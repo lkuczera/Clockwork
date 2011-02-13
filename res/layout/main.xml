@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+
+	<Chronometer android:id="@+id/Chronometer01" android:text="@+id/Chronometer01"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:layout_x="156dip" android:layout_y="60dip"></Chronometer>
+
+	<ToggleButton android:id="@+id/ToggleButton01"
+		android:layout_height="wrap_content" android:text="@+id/ToggleButton01"
+		android:layout_width="wrap_content" android:layout_x="185dip"
+		android:layout_y="173dip"></ToggleButton>
+
+
+           
+
+	<LinearLayout android:id="@+id/LinearLayout01"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
+		<Button android:text="@string/Button1" android:id="@+id/Button01"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+		<Button android:text="@string/locationListener" android:id="@+id/Button02"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+	</LinearLayout>
+	
+	<com.google.android.maps.MapView
+				 android:id="@+id/mapview"
+				 android:clickable="true" 
+                 android:layout_width="fill_parent"
+                 android:layout_height="fill_parent"
+                 android:apiKey="0juOSXzxFviktUdfq96_m9EVL6bS5YOad0h3DsA"
+                 />
+	
+	<ScrollView android:layout_width="fill_parent" android:id="@+id/ScrollView01"
+		android:layout_height="wrap_content">
+		<TextView android:text="@+id/TextView01" android:id="@+id/TextView01"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	</ScrollView>
+ 	
+ 	
+
+
+
+<LinearLayout android:id="@+id/LinearLayout02" android:layout_width="wrap_content" android:layout_height="wrap_content"></LinearLayout>
+</LinearLayout>
